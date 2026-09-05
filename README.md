@@ -187,41 +187,6 @@ http://localhost:5173
 
 ---
 
-## 🔐 Environment Variables
-
-### `backend/.env`
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://your_username:your_password@cluster.mongodb.net/mentorlink
-
-JWT_SECRET=your_jwt_secret_key
-JWT_EXPIRES_IN=7d
-
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
-
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-
-EMAIL_USER=youremail@gmail.com
-EMAIL_PASS=your_gmail_app_password
-
-GROQ_API_KEY=your_groq_api_key
-
-CLIENT_URL=http://localhost:5173
-```
-
-### `frontend/.env`
-```env
-VITE_API_URL=http://localhost:5000/api
-VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
-```
-
----
-
-
-
 ---
 
 ## 🌐 Pages Overview
