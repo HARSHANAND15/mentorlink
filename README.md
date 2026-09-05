@@ -206,16 +206,3 @@ http://localhost:5173
 | Edit Profile | `/profile/edit` | Auth |
 
 ---
-
-Page	Route	Access
-Home	/	Public
-Find Mentors	/mentors	Public
-Mentor Detail	/mentors/:id	Public
-Blog	/blog	Public
-Login	/login	Guest
-Signup	/signup	Guest
-Book Session	/book/:mentorId	Mentee
-Mentee Dashboard	/dashboard/mentee	Mentee
-Mentor Dashboard	/dashboard/mentor	Mentor
-Edit Profile	/profile/edit	Auth
-Author
